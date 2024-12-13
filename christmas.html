@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index,follow">
-    <title>2048 Cupcakes GAME [2025 Updated]</title>
-    <meta name="description" content="2048 Cupcakes is a delightful variation of the well-known game 2048. This single-player puzzle game revolves around the theme of Cupcakes. The objective of the game is to slide numbered Cupcakes onto a grid, combining them to create new and more delicious Cupcakes.">
-
+    <title>2048 Cupcakes Halloween | Play Online Game</title>
+    <meta name="description" content="2048 Cupcakes Halloween is a delightful variation of the well-known game 2048. Let's play this 2048 Cupcakes Halloween Game!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,8 +15,8 @@
     <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 
     <link rel="shortcut icon" href="/theme/img/2048cupcakes.ico">
-    <link href="/theme/css/main.min.css?v=<?php echo $data['config']['version'] ?>" rel="stylesheet" type="text/css">
-    <link href="/theme/css/2048.css?v=<?php echo $data['config']['version'] ?>" rel="stylesheet" type="text/css">
+    <link href="/theme/css/main.min.css" rel="stylesheet" type="text/css">
+    <link href="/theme/css/2048.css" rel="stylesheet" type="text/css">
     <style>
         .data-setting{
             position: relative;
@@ -91,17 +90,97 @@
             display: none;
         }
 
+        .tile.tile-2 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/2.webp');
+            background-size: cover;
+            box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+        }
+
+        .tile.tile-4 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/4.webp');
+            background-size: cover;
+            box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+        }
+
+        .tile.tile-8 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/8.webp');
+            background-size: cover;
+        }
+
+        .tile.tile-16 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/16.webp');
+            background-size: cover;
+        }
+
+        .tile.tile-32 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/32.webp');
+            background-size: cover;
+        }
+
+        .tile.tile-64 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/64.webp');
+            background-size: cover;
+        }
+
+        .tile.tile-128 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/128.webp');
+            background-size: cover;
+            /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); */
+        }
+
+        .tile.tile-256 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/256.webp');
+            background-size: cover;
+            /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); */
+        }
+
+        .tile.tile-512 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/512.webp');
+            background-size: cover;
+            /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); */
+        }
+
+        .tile.tile-1024 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/1024.webp');
+            background-size: cover;
+            /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); */
+        }
+
+        .tile.tile-2048 .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/2048.webp');
+            background-size: cover;
+            /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); */
+        }
+
+        .tile.tile-super .tile-inner {
+            font-size: 0px;
+            background-image: url('/theme/img/christmas/webp/gold.webp');
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="page">
+<div class="page">
     <div class="page__wrapper">
 
         <div class="container">
             <div class="headline">
                 <h1 class="headline__title"><?php echo $data['lang_pack']['i18n_h1'];?></h1>
-                <div id="mode" aria-label="classic"  style="margin:auto;width:150px;cursor:pointer;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);color: #f67098;font-weight: 800;font-size:21px;font-style: oblique;">Classic</div>
+                <div id="mode" aria-label="classic"  style="margin:auto;width:150px;cursor:pointer;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);color: #f67098;font-weight: 800;font-size:21px;font-style: oblique;">
+                    Christmas
+                </div>
 
                 <div class="floating-window" style="display: none;">
                     <div class="window-header">
@@ -111,9 +190,9 @@
                     <div class="window-content">
                         <div class="more-cupcakes">
                             <div>
-                                <img alt="2048 cupcakes christmas" src="/theme/img/christmas/webp/2.webp">
-                                <div>Christmas</div>
-                                <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/christmas">Play</a>
+                                <img alt="2048 cupcakes" src="/theme/img/2.webp">
+                                <div>Classic</div>
+                                <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>">Play</a>
                             </div>
                             <div>
                                 <img alt="2048 cupcakes Halloween" src="/theme/img/halloween/png/2.png">
@@ -172,20 +251,6 @@
                             <div class="lower">
                                 <a class="keep-playing-button">Keep going</a>
                                 <a class="retry-button">Try again</a>
-                                <div class="window-content">
-                                    <div class="more-cupcakes">
-                                        <div>
-                                            <img alt="2048 cupcakes christmas" src="/theme/img/christmas/webp/2.webp">
-                                            <div>Christmas</div>
-                                            <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/christmas">Play</a>
-                                        </div>
-                                        <div>
-                                            <img alt="2048 cupcakes Halloween" src="/theme/img/halloween/png/2.png">
-                                            <div>Halloween</div>
-                                            <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/halloween">Play</a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -263,58 +328,19 @@
             </div>
         </section>
 
-        <section class="section section--grey">
-            <div class="container">
-                <div class="play2048-text">
-                    <h2 class="info_text">Select Language</h2>
-                </div>
-
-                <div class="links">
-                    <a class="links__link" href="/en">
-                        <img src="/theme/img/us.svg" class="icon" alt="English">
-                        English
-                    </a>
-                    <a class="links__link" href="/fr">
-                        <img src="/theme/img/fr.svg"  class="icon" alt="Français">
-                        Français
-                    </a>
-                    <a class="links__link" href="/es">
-                        <img src="/theme/img/br.svg"  class="icon" alt="Español">
-                        Español
-                    </a>
-                    <a class="links__link" href="/pt">
-                        <img src="/theme/img/pt.svg"  class="icon" alt="Português">
-                        Português
-                    </a>
-                    <a class="links__link" href="/de">
-                        <img src="/theme/img/de.svg"  class="icon" alt="Deutsch">
-                        Deutsch
-                    </a>
-                    <a class="links__link" href="/ja">
-                        <img src="/theme/img/jp.svg"  class="icon" alt="日本語">
-                        日本語
-                    </a>
-                    <a class="links__link" href="/zh-tw">
-                        <img src="/theme/img/zh-tw.svg"  class="icon" alt="繁體中文">
-                        繁體中文
-                    </a>
-                </div>
-            </div>
-        </section>
-
     </div>
 
-        <section class="section" style="text-align:center;margin: auto;width: 50%;">
-            <h2>Changelog</h2>
-            <h3 class="text-center"><time class="entry-date updated td-module-date" datetime="2024-12-04T15:01:05+07:00">December 04, 2024</time></h3>
-            <div style="text-align: left;">
-                <div>December 04, 2024 - Add 2048 Cupcake halloween</div>
-                <div>December 03, 2024 - Add 2048 Cupcake Christmas</div>
-                <div>December 01, 2024 - Add Check box for 2048 Cupcake Numbers On/Off</div>
-                <div>July     01, 2024 - Add Number label: Each Cupcake tile has a small number label in the bottom-right corner.</div>
-            </div>
+    <section class="section" style="text-align:center;margin: auto;width: 50%;">
+        <h2>Changelog</h2>
+        <h3 class="text-center"><time class="entry-date updated td-module-date" datetime="2024-12-04T15:01:05+07:00">December 04, 2024</time></h3>
+        <div style="text-align: left;">
+            <div>December 04, 2024 - Add 2048 Cupcake halloween</div>
+            <div>December 03, 2024 - Add 2048 Cupcake Christmas</div>
+            <div>December 01, 2024 - Add Check box for 2048 Cupcake Numbers On/Off</div>
+            <div>July     01, 2024 - Add Number label: Each Cupcake tile has a small number label in the bottom-right corner.</div>
+        </div>
 
-        </section>
+    </section>
 
     <footer class="footer">
         <div class="container">
@@ -334,17 +360,17 @@
 
 </div>
 
-    <script src="/theme/js/bind_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/classlist_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/animframe_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/keyboard_input_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/html_actuator.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/grid.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/tile.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/local_storage_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/game_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/application.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/mode.js?v=<?php echo $data['config']['version'] ?>"></script>
+<script src="/theme/js/bind_polyfill.js"></script>
+<script src="/theme/js/classlist_polyfill.js"></script>
+<script src="/theme/js/animframe_polyfill.js"></script>
+<script src="/theme/js/keyboard_input_manager.js"></script>
+<script src="/theme/js/html_actuator.js"></script>
+<script src="/theme/js/grid.js"></script>
+<script src="/theme/js/tile.js"></script>
+<script src="/theme/js/local_storage_manager.js"></script>
+<script src="/theme/js/game_manager.js"></script>
+<script src="/theme/js/application.js"></script>
+<script src="/theme/js/mode.js"></script>
 
 </body>
 
