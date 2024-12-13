@@ -16,8 +16,8 @@
     <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 
     <link rel="shortcut icon" href="/theme/img/2048cupcakes.ico">
-    <link href="/theme/css/main.min.css?v=<?php echo $data['config']['version'] ?>" rel="stylesheet" type="text/css">
-    <link href="/theme/css/2048.css?v=<?php echo $data['config']['version'] ?>" rel="stylesheet" type="text/css">
+    <link href="/theme/css/main.min.css" rel="stylesheet" type="text/css">
+    <link href="/theme/css/2048.css" rel="stylesheet" type="text/css">
     <style>
         .data-setting{
             position: relative;
@@ -100,7 +100,7 @@
 
         <div class="container">
             <div class="headline">
-                <h1 class="headline__title"><?php echo $data['lang_pack']['i18n_h1'];?></h1>
+                <h1 class="headline__title">2048 Cupcakes</h1>
                 <div id="mode" aria-label="classic"  style="margin:auto;width:150px;cursor:pointer;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);color: #f67098;font-weight: 800;font-size:21px;font-style: oblique;">Classic</div>
 
                 <div class="floating-window" style="display: none;">
@@ -113,12 +113,12 @@
                             <div>
                                 <img alt="2048 cupcakes christmas" src="/theme/img/christmas/webp/2.webp">
                                 <div>Christmas</div>
-                                <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/christmas">Play</a>
+                                <a href="/christmas">Play</a>
                             </div>
                             <div>
                                 <img alt="2048 cupcakes Halloween" src="/theme/img/halloween/png/2.png">
                                 <div>Halloween</div>
-                                <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/halloween">Play</a>
+                                <a href="/halloween">Play</a>
                             </div>
                         </div>
                     </div>
@@ -132,11 +132,11 @@
 
                 <style>
                     .score-container:after {
-                        content: "<?php echo $data['lang_pack']['i18n_score'];?>" !important;
+                        content: "Score" !important;
                     }
 
                     .best-container:after {
-                        content: "<?php echo $data['lang_pack']['i18n_best'];?>" !important;
+                        content: "Best" !important;
                     }
                 </style>
 
@@ -155,7 +155,7 @@
                             </div>
                             <div class="best-container">140</div>
                         </div>
-                        <a class="restart-button"><?php echo $data['lang_pack']['i18n_new'];?></a>
+                        <a class="restart-button">New Game</a>
                     </div>
                     <div class="data-setting">
                         <hr>
@@ -177,12 +177,12 @@
                                         <div>
                                             <img alt="2048 cupcakes christmas" src="/theme/img/christmas/webp/2.webp">
                                             <div>Christmas</div>
-                                            <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/christmas">Play</a>
+                                            <a href="/christmas">Play</a>
                                         </div>
                                         <div>
                                             <img alt="2048 cupcakes Halloween" src="/theme/img/halloween/png/2.png">
                                             <div>Halloween</div>
-                                            <a href="<?php echo $data['config']['http_head'];?><?php echo $data['config']['host'];?>/halloween">Play</a>
+                                            <a href="/halloween">Play</a>
                                         </div>
                                     </div>
                                 </div>
@@ -254,51 +254,12 @@
                 <section class="section section--grey" style="background:#faf8ef;">
                     <div class="container">
                         <div class="play2048-text" style="text-align:center">
-                            <h2 class="h2--center" style="margin-bottom:10px"><?php echo $data['lang_pack']['i18n_guide_title'];?></h2>
-                            <p><?php echo $data['lang_pack']['i18n_guide_p'];?></p>
+                            <h2 class="h2--center" style="margin-bottom:10px">How to Play 2048 Cupcakes</h2>
+                            <p>Use your arrow keys (also W, A, S, and D keys alternatively) or swipe with your fingers to move the 2048 Cupcakes tiles. For example, if you joined 2 tiles with the number 2 Cupcakes, they will become 4 Cupcakes, 2 Cupcakes tiles with 4 Cupcakes will become 8 Cupcakes, and so on. The point of the game is to get the 2048 Cupcakes tile!</p>
                         </div>
                     </div>
                 </section>
 
-            </div>
-        </section>
-
-        <section class="section section--grey">
-            <div class="container">
-                <div class="play2048-text">
-                    <h2 class="info_text">Select Language</h2>
-                </div>
-
-                <div class="links">
-                    <a class="links__link" href="/en">
-                        <img src="/theme/img/us.svg" class="icon" alt="English">
-                        English
-                    </a>
-                    <a class="links__link" href="/fr">
-                        <img src="/theme/img/fr.svg"  class="icon" alt="Français">
-                        Français
-                    </a>
-                    <a class="links__link" href="/es">
-                        <img src="/theme/img/br.svg"  class="icon" alt="Español">
-                        Español
-                    </a>
-                    <a class="links__link" href="/pt">
-                        <img src="/theme/img/pt.svg"  class="icon" alt="Português">
-                        Português
-                    </a>
-                    <a class="links__link" href="/de">
-                        <img src="/theme/img/de.svg"  class="icon" alt="Deutsch">
-                        Deutsch
-                    </a>
-                    <a class="links__link" href="/ja">
-                        <img src="/theme/img/jp.svg"  class="icon" alt="日本語">
-                        日本語
-                    </a>
-                    <a class="links__link" href="/zh-tw">
-                        <img src="/theme/img/zh-tw.svg"  class="icon" alt="繁體中文">
-                        繁體中文
-                    </a>
-                </div>
             </div>
         </section>
 
@@ -320,7 +281,7 @@
         <div class="container">
             <div class="footer__top">
                 <a class="footer__logo" href="https://cupcakes2048.com/">
-                    <img src="/theme/img/2048cupcakes.ico?v=<?php echo $data['config']['version'] ?>" alt="2048 cupcakes">
+                    <img src="/theme/img/2048cupcakes.ico" alt="2048 cupcakes">
                 </a>
             </div>
             <div class="footer__bottom">
@@ -334,17 +295,17 @@
 
 </div>
 
-    <script src="/theme/js/bind_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/classlist_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/animframe_polyfill.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/keyboard_input_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/html_actuator.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/grid.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/tile.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/local_storage_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/game_manager.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/application.js?v=<?php echo $data['config']['version'] ?>"></script>
-    <script src="/theme/js/mode.js?v=<?php echo $data['config']['version'] ?>"></script>
+    <script src="/theme/js/bind_polyfill.js"></script>
+    <script src="/theme/js/classlist_polyfill.js"></script>
+    <script src="/theme/js/animframe_polyfill.js"></script>
+    <script src="/theme/js/keyboard_input_manager.js"></script>
+    <script src="/theme/js/html_actuator.js"></script>
+    <script src="/theme/js/grid.js"></script>
+    <script src="/theme/js/tile.js"></script>
+    <script src="/theme/js/local_storage_manager.js"></script>
+    <script src="/theme/js/game_manager.js"></script>
+    <script src="/theme/js/application.js"></script>
+    <script src="/theme/js/mode.js"></script>
 
 </body>
 
